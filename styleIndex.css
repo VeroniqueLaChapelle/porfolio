@@ -1,0 +1,107 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	background-color:#e8e1d5;
+	font-family:Baskerville, "Baskerville Old Face";
+	width:100%;
+}
+.logo{
+	width:250px;
+	position:fixed;
+	z-index: 100;
+	padding:0.6em 0 0 0.6em;
+}
+nav{
+	color:black;
+	width:100%;
+	height:70px;
+	background-color: #ded5c5;
+	border-bottom:black 1px solid;
+	display: flex;
+	justify-content: flex-end;
+	position:fixed;
+	z-index: 100;
+}
+a{
+	text-decoration:none;
+}
+
+
+.bio{
+	margin-top: 20px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+
+
+.a{
+	display:inline;
+	float:right;
+	padding:0.6em 2.2em 0 0;
+	font-size:x-large;
+}
+a:link{
+	color:black;
+}
+a:hover{
+	color:white;
+}
+a:visited{
+	color:black;
+}
+a:visited:hover{
+	color:white;
+}
+
+
+.contact{
+	margin-top:30px;
+}
+h3{
+	margin-bottom:40px;
+	margin-top:150px;
+	font-weight: bold;
+}
+
+
+.icones{
+	width:40px;
+	margin-left: 30px;
+}
+article img{
+	width:130px;
+	margin:20px;
+}
+article p{
+	text-align: justify;
+}
+h4{
+	margin-top:20px;
+	color:black;
+}
+p{
+	color:black;
+}
+
+footer{
+	clear:both;
+	width:100%;
+	text-align:center;
+	padding:30px;
+	font-size:15px;
+}
+
+
+/*page 2*/
+
+.slider{
+	padding-top: 100px;
+}
+
+
+@media screen and (max-width: 1000px) {
+	article a img{
+		display:none;
+	}
+	
+}
